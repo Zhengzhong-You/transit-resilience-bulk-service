@@ -1,0 +1,9 @@
+{
+  "case": "original-frequent-incidents",
+  "index": 17,
+  "incident_seed": 2026110217,
+  "seconds": 46.6629882499692,
+  "capacities_equal": true,
+  "maximum_displacement_difference": 1.1641532182693481e-10,
+  "grid_classes_equal": true
+}

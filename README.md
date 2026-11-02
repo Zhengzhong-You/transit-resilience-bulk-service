@@ -5,9 +5,9 @@ Code and numerical data for the paper
 > Baichuan Mo, Zhengzhong Ricky You, Li Jin, Zuo-Jun Max Shen, Haris N. Koutsopoulos and Jinhua Zhao.
 > *Bulk Service Queueing for Transit Resilience under Short Random Service Suspensions.*
 
-The repository contains the physical route simulator, the joint queue–phase calculation, the direct
-two-station joint calculation, the iid root and contour benchmarks, every experiment driver, the
-replication-level outputs behind each table and figure, and 35 regression tests. All experiments use
+The repository contains the physical route simulator, the joint queue–phase calculation with its
+history-augmented phase, the direct two-station joint calculation, the iid root and contour benchmarks, every experiment driver, the
+replication-level outputs behind each table and figure, and 41 regression tests. All experiments use
 synthetic routes, so no external data are needed. A standard CPU suffices; no GPU or commercial solver
 is used.
 
@@ -30,9 +30,9 @@ The stored runs used NumPy 2.5.4, SciPy 1.18.1 and one BLAS thread per numerical
 python -m unittest discover -s . -p 'test_*.py'
 ```
 
-The 35 tests cover FIFO service conservation, calendar-cohort matching, destination inputs, phase
-moments, sparse transitions, root safeguards, the Lambert-W special case and a dense enumeration of
-the two-station joint operator.
+The 41 tests cover FIFO service conservation, calendar-cohort matching, destination inputs, phase
+moments, sparse transitions, the history-augmented phase fit and its sparse stationary solver, root
+safeguards, the Lambert-W special case and a dense enumeration of the two-station joint operator.
 
 ## Reproducing the tables and figures
 
@@ -44,28 +44,32 @@ table and figure numbers refer to the paper.
 | Table 1 | inputs defined in `revision_inputs.py` |
 | Figure 1 | `python plot_revision_model.py` (writes `Figures/rr2_model.pdf`) |
 | Sections 5.2 and 5.6–5.8, Figure 2, Table 7 | `python summarize_revision_evidence.py --route-run runs/rr-final-common-cohort-20261101-v1 --root-run runs/rr-rootfree-final-20261101-v3 --output runs/reproduced-summary` |
-| Tables 2–5, Figures 3, 5 and 6 | `python analyze_integrated_revision.py --output runs/reproduced-integrated-summary` |
+| Tables 3–5 and Figure 3 | `python analyze_history_phase.py --output runs/reproduced-history-summary` |
+| Table 2, Figures 5 and 6, first-order phase and trace controls | `python analyze_integrated_revision.py --output runs/reproduced-integrated-summary` |
 | Figure 4 | `python plot_service_revision.py runs/rr-service-boundary-20261031 --output runs/reproduced-service` |
 | Table 6 | `python summarize_two_stop_validation.py --output runs/reproduced-two-stop` |
 
-`analyze_integrated_revision.py` recomputes all 171 station–profile errors for the four moments,
-including the variance errors above 10%, every input-control comparison, the input profiles and the
-policy statistics. It also verifies the SHA-256 digests of all 401 frozen calibration and kernel files,
-checks irreducibility and strict drift for every fitted kernel and reports its mean-interval error.
-`analysis/integrated/` stores its outputs for the paper, together with the two-station summaries. The iid benchmark of Section 5.9 and
-Section EC.9 is stored in `runs/rr-rootfree-final-20261101-v3` and
+`analyze_history_phase.py` recomputes the four moment errors of the history-augmented phase in all
+171 station–profile comparisons, next to those of the first-order phase, together with the fitted-chain
+checks, the input-control comparison and the calibration-only net-input diagnostic; it first verifies
+the SHA-256 digests of every frozen history kernel. `analyze_integrated_revision.py` recomputes the
+first-order errors, every input-control comparison, the input profiles and the policy statistics, and
+verifies the digests of all 401 frozen first-order calibration and kernel files. `analysis/integrated/`
+stores the outputs of both scripts for the paper, together with the two-station summaries. The iid
+benchmark of Section 5.9 and Section EC.9 is stored in `runs/rr-rootfree-final-20261101-v3` and
 `runs/rr2-deterministic-roots-20261101-v1`.
 
 ## Rerunning the experiments
 
 Every driver refuses to overwrite an existing output directory. The large experiments used 16–24
-parallel CPU processes; the 4,800,000-vehicle two-station validation took about ten minutes with
-eight processes on a laptop.
+parallel CPU processes. With eight processes on a laptop, the 4,800,000-vehicle two-station
+validation took about ten minutes and the history-augmented phase about 13 minutes.
 
 | Experiment | Command |
 |---|---|
 | Calibration and independent validation: 19 profiles, 39 physical inputs, 20 replications each (Sections 5.3 and 5.5) | `python run_revision_scan.py --output runs/reproduced-expanded --workers 24` |
 | Small pilot of the same scan | `python run_revision_scan.py --output runs/reproduced-pilot --workers 4 --pilot` |
+| History-augmented phase for all 171 cells from the frozen calibration runs (Section 5.3) | `python run_history_phase.py --output runs/reproduced-history --workers 8` |
 | Operating sample: 41 settings, 20 replications each (Sections 5.2, 5.6 and 5.7) | `python run_revision_final_suite.py --output runs/reproduced-physical` |
 | Passenger-dwell reconstruction and all-station diagnostics (Section 5.6) | `python run_revision_dwell_joint.py --previous runs/rr-final-common-cohort-20261101-v1 --direct runs/rr2-two-stop-direct-20261101-v1 --output runs/reproduced-dwell-joint --workers 24` |
 | Direct two-station calculation (Section 5.4) | `python joint_two_stop.py --output runs/reproduced-two-stop-direct` |
@@ -83,8 +87,10 @@ Core modules:
 - `service_dynamics.py`: propagated FIFO vehicle service clock.
 - `route_validation.py`: physical route simulation that tracks passenger destinations, vehicle
   identities, dwell and fleet returns.
-- `delay_stationary.py`, `sparse_phase_queue.py`: joint stationary calculation of the residual queue,
-  displacement and available capacity.
+- `delay_stationary.py`, `sparse_phase_queue.py`, `sparse_stationary.py`: joint stationary calculation
+  of the residual queue and the phase.
+- `history_phase.py`: history-augmented phase (displacement class, available capacity and upstream
+  backlog class) and its calibration-only diagnostics.
 - `joint_two_stop.py`: direct joint calculation for the two-boarding-station route.
 - `rootfree_bulk.py`, `root_solver.py`: contour and root calculations for the iid bulk-service
   benchmark.
@@ -101,6 +107,7 @@ Stored runs in `runs/`:
 | `rr2-scan-20261101-v1` | Validation sample. Frozen calibration inputs (400,000 vehicles per profile, first 100,000 discarded), kernels and predictions for all 171 station–profile cells, and 20 independent replications of each of the 39 physical inputs. Observations use calendar gates (192000, 384000] and the arrival cohort (192000, 288000] minutes. |
 | `rr2-scan-repair-20261101-v1` | The 20 validation outputs of profile `original-demand1`, recomputed with identical frozen inputs and seeds. In the original run a near-duplicate policy input with the same file name overwrote them; the analysis labels that policy input `original-policy-demand1` and never pools the two. |
 | `rr-final-common-cohort-20261101-v1` | Operating sample. 41 settings × 20 replications of 80,000 scheduled vehicles: stability boundary, passenger dwell, finite fleet, incident duration laws, destination changes and passing. |
+| `rr2-history-phase-20261102-v1` | History-augmented phase for all 171 cells: upstream residual queues recovered by re-simulating each calibration run, frozen kernels and predictions, and fitted-chain checks with the evaluation seeds of the validation sample. |
 | `rr2-dwell-joint-20261101-v1` | Reconstruction of the 280 dwell cases from the same primitive arrays, with all-station gate, departure, blocking and boarding diagnostics; also the two-station validation at 120,000 vehicles. |
 | `rr2-two-stop-direct-20261101-v1` | Direct two-station joint calculation with queue caps 32 to 256. |
 | `rr2-two-stop-long-20261101-v1`, `rr2-two-stop-4800k-20261101-v1` | Two-station physical validation at 480,000 and 4,800,000 vehicles, 20 passenger streams per input with seeds 2026112100–2026112119. |

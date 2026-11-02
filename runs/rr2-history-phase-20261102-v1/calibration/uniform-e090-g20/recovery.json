@@ -1,0 +1,9 @@
+{
+  "case": "uniform-e090-g20",
+  "index": 5,
+  "incident_seed": 2026110205,
+  "seconds": 176.76621816598345,
+  "capacities_equal": true,
+  "maximum_displacement_difference": 1.1641532182693481e-10,
+  "grid_classes_equal": true
+}

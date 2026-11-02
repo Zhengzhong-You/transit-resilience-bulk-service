@@ -1,0 +1,9 @@
+{
+  "case": "heterogeneous-e097",
+  "index": 11,
+  "incident_seed": 2026110211,
+  "seconds": 76.65059899998596,
+  "capacities_equal": true,
+  "maximum_displacement_difference": 0.0,
+  "grid_classes_equal": true
+}

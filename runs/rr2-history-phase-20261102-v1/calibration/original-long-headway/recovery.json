@@ -1,0 +1,9 @@
+{
+  "case": "original-long-headway",
+  "index": 14,
+  "incident_seed": 2026110214,
+  "seconds": 64.55845312500605,
+  "capacities_equal": true,
+  "maximum_displacement_difference": 0.0,
+  "grid_classes_equal": true
+}

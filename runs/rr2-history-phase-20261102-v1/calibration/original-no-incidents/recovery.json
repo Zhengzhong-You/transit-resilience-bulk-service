@@ -1,0 +1,9 @@
+{
+  "case": "original-no-incidents",
+  "index": 16,
+  "incident_seed": 2026110216,
+  "seconds": 49.94545687496429,
+  "capacities_equal": true,
+  "maximum_displacement_difference": 0.0,
+  "grid_classes_equal": true
+}
