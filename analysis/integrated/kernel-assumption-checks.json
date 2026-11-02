@@ -1,0 +1,1377 @@
+{
+  "cells": 171,
+  "frozen_files_verified": 401,
+  "all_irreducible": true,
+  "all_drift_strict": true,
+  "maximum_mean_headway_error": 1.509903313490213e-14,
+  "details": [
+    {
+      "case": "uniform-e090-g00",
+      "station": 1,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 37.83672425668458,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "uniform-e090-g00",
+      "station": 2,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 28.708730729861337,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e090-g00",
+      "station": 3,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 21.862294399951686,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e090-g00",
+      "station": 4,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 16.723120760139096,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "uniform-e090-g00",
+      "station": 5,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 12.881560956099898,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e090-g00",
+      "station": 6,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 10.008541304305153,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "uniform-e090-g00",
+      "station": 7,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 7.848484262195646,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e090-g00",
+      "station": 8,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 6.2200834257807305,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e090-g00",
+      "station": 9,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 4.994629207775249,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "original-long-headway",
+      "station": 1,
+      "strong_components": 1,
+      "minimum_interval": 0.0,
+      "service_drift_margin": 29.17857142857143,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "original-long-headway",
+      "station": 2,
+      "strong_components": 1,
+      "minimum_interval": 0.0,
+      "service_drift_margin": 16.31253911176231,
+      "mean_headway_error": 3.552713678800501e-15
+    },
+    {
+      "case": "original-long-headway",
+      "station": 3,
+      "strong_components": 1,
+      "minimum_interval": 0.0,
+      "service_drift_margin": 13.253952822568783,
+      "mean_headway_error": 5.329070518200751e-15
+    },
+    {
+      "case": "original-long-headway",
+      "station": 4,
+      "strong_components": 1,
+      "minimum_interval": 0.0,
+      "service_drift_margin": 15.226357387789996,
+      "mean_headway_error": 3.552713678800501e-15
+    },
+    {
+      "case": "original-long-headway",
+      "station": 5,
+      "strong_components": 1,
+      "minimum_interval": 0.0,
+      "service_drift_margin": 16.711519542886407,
+      "mean_headway_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "original-long-headway",
+      "station": 6,
+      "strong_components": 1,
+      "minimum_interval": 0.0,
+      "service_drift_margin": 24.11294416289857,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "original-long-headway",
+      "station": 7,
+      "strong_components": 1,
+      "minimum_interval": 0.0,
+      "service_drift_margin": 24.238599369199804,
+      "mean_headway_error": 3.552713678800501e-15
+    },
+    {
+      "case": "original-long-headway",
+      "station": 8,
+      "strong_components": 1,
+      "minimum_interval": 0.0,
+      "service_drift_margin": 17.520969000194107,
+      "mean_headway_error": 3.552713678800501e-15
+    },
+    {
+      "case": "original-long-headway",
+      "station": 9,
+      "strong_components": 1,
+      "minimum_interval": 0.0,
+      "service_drift_margin": 28.58821298627724,
+      "mean_headway_error": 3.552713678800501e-15
+    },
+    {
+      "case": "heterogeneous-e080",
+      "station": 1,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 27.674418604651162,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "heterogeneous-e080",
+      "station": 2,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 10.802694549538256,
+      "mean_headway_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "heterogeneous-e080",
+      "station": 3,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 6.7995814000603145,
+      "mean_headway_error": 2.6645352591003757e-15
+    },
+    {
+      "case": "heterogeneous-e080",
+      "station": 4,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 9.37733269576739,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "heterogeneous-e080",
+      "station": 5,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 11.318226174233647,
+      "mean_headway_error": 3.552713678800501e-15
+    },
+    {
+      "case": "heterogeneous-e080",
+      "station": 6,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 21.029584013841195,
+      "mean_headway_error": 2.6645352591003757e-15
+    },
+    {
+      "case": "heterogeneous-e080",
+      "station": 7,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 21.193840794556106,
+      "mean_headway_error": 4.440892098500626e-15
+    },
+    {
+      "case": "heterogeneous-e080",
+      "station": 8,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 12.382112313860178,
+      "mean_headway_error": 1.509903313490213e-14
+    },
+    {
+      "case": "heterogeneous-e080",
+      "station": 9,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 26.90619921760625,
+      "mean_headway_error": 1.1546319456101628e-14
+    },
+    {
+      "case": "uniform-e097-g00",
+      "station": 1,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 36.89069169887116,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "uniform-e097-g00",
+      "station": 2,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 27.05643900035198,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e097-g00",
+      "station": 3,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 19.679114372356693,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e097-g00",
+      "station": 4,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 14.16291908120576,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e097-g00",
+      "station": 5,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 10.00701556332946,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e097-g00",
+      "station": 6,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 6.906728516124236,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "uniform-e097-g00",
+      "station": 7,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 4.570284371163009,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "uniform-e097-g00",
+      "station": 8,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 2.8222239488861334,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "uniform-e097-g00",
+      "station": 9,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 1.5025943867341542,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "original-no-incidents",
+      "station": 1,
+      "strong_components": 1,
+      "minimum_interval": 4.0,
+      "service_drift_margin": 31.75,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "original-no-incidents",
+      "station": 2,
+      "strong_components": 1,
+      "minimum_interval": 4.0,
+      "service_drift_margin": 25.751225837419454,
+      "mean_headway_error": 4.440892098500626e-16
+    },
+    {
+      "case": "original-no-incidents",
+      "station": 3,
+      "strong_components": 1,
+      "minimum_interval": 4.0,
+      "service_drift_margin": 24.328948555029385,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "original-no-incidents",
+      "station": 4,
+      "strong_components": 1,
+      "minimum_interval": 4.0,
+      "service_drift_margin": 25.24974241929106,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "original-no-incidents",
+      "station": 5,
+      "strong_components": 1,
+      "minimum_interval": 4.0,
+      "service_drift_margin": 25.937161466008398,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "original-no-incidents",
+      "station": 6,
+      "strong_components": 1,
+      "minimum_interval": 4.0,
+      "service_drift_margin": 29.38710792001382,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "original-no-incidents",
+      "station": 7,
+      "strong_components": 1,
+      "minimum_interval": 4.0,
+      "service_drift_margin": 29.443508978363255,
+      "mean_headway_error": 1.3322676295501878e-15
+    },
+    {
+      "case": "original-no-incidents",
+      "station": 8,
+      "strong_components": 1,
+      "minimum_interval": 4.0,
+      "service_drift_margin": 26.30987610827587,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "original-no-incidents",
+      "station": 9,
+      "strong_components": 1,
+      "minimum_interval": 4.0,
+      "service_drift_margin": 31.476186890397017,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "original-frequent-incidents",
+      "station": 1,
+      "strong_components": 1,
+      "minimum_interval": 0.0,
+      "service_drift_margin": 31.0,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "original-frequent-incidents",
+      "station": 2,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 22.998817585929984,
+      "mean_headway_error": 2.6645352591003757e-15
+    },
+    {
+      "case": "original-frequent-incidents",
+      "station": 3,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 21.108659541055232,
+      "mean_headway_error": 2.6645352591003757e-15
+    },
+    {
+      "case": "original-frequent-incidents",
+      "station": 4,
+      "strong_components": 1,
+      "minimum_interval": -3.552713678800501e-15,
+      "service_drift_margin": 22.32452415670617,
+      "mean_headway_error": 6.217248937900877e-15
+    },
+    {
+      "case": "original-frequent-incidents",
+      "station": 5,
+      "strong_components": 1,
+      "minimum_interval": -3.552713678800501e-15,
+      "service_drift_margin": 23.245667966414086,
+      "mean_headway_error": 4.440892098500626e-15
+    },
+    {
+      "case": "original-frequent-incidents",
+      "station": 6,
+      "strong_components": 1,
+      "minimum_interval": -3.552713678800501e-15,
+      "service_drift_margin": 27.854905866140324,
+      "mean_headway_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "original-frequent-incidents",
+      "station": 7,
+      "strong_components": 1,
+      "minimum_interval": -3.552713678800501e-15,
+      "service_drift_margin": 27.925155972661415,
+      "mean_headway_error": 4.440892098500626e-15
+    },
+    {
+      "case": "original-frequent-incidents",
+      "station": 8,
+      "strong_components": 1,
+      "minimum_interval": -3.552713678800501e-15,
+      "service_drift_margin": 23.750746889834524,
+      "mean_headway_error": 4.440892098500626e-15
+    },
+    {
+      "case": "original-frequent-incidents",
+      "station": 9,
+      "strong_components": 1,
+      "minimum_interval": -3.552713678800501e-15,
+      "service_drift_margin": 30.634514718623905,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "original-long-incidents",
+      "station": 1,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 30.85,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "original-long-incidents",
+      "station": 2,
+      "strong_components": 1,
+      "minimum_interval": -3.552713678800501e-15,
+      "service_drift_margin": 22.45690943745153,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "original-long-incidents",
+      "station": 3,
+      "strong_components": 1,
+      "minimum_interval": -3.552713678800501e-15,
+      "service_drift_margin": 20.458781306496405,
+      "mean_headway_error": 4.440892098500626e-15
+    },
+    {
+      "case": "original-long-incidents",
+      "station": 4,
+      "strong_components": 1,
+      "minimum_interval": -3.552713678800501e-15,
+      "service_drift_margin": 21.74587326020449,
+      "mean_headway_error": 1.0658141036401503e-14
+    },
+    {
+      "case": "original-long-incidents",
+      "station": 5,
+      "strong_components": 1,
+      "minimum_interval": -3.552713678800501e-15,
+      "service_drift_margin": 22.711346206491122,
+      "mean_headway_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "original-long-incidents",
+      "station": 6,
+      "strong_components": 1,
+      "minimum_interval": -3.552713678800501e-15,
+      "service_drift_margin": 27.545981369481762,
+      "mean_headway_error": 1.0658141036401503e-14
+    },
+    {
+      "case": "original-long-incidents",
+      "station": 7,
+      "strong_components": 1,
+      "minimum_interval": -3.552713678800501e-15,
+      "service_drift_margin": 27.62629186903791,
+      "mean_headway_error": 4.440892098500626e-15
+    },
+    {
+      "case": "original-long-incidents",
+      "station": 8,
+      "strong_components": 1,
+      "minimum_interval": -3.552713678800501e-15,
+      "service_drift_margin": 23.240692119686987,
+      "mean_headway_error": 8.881784197001252e-15
+    },
+    {
+      "case": "original-long-incidents",
+      "station": 9,
+      "strong_components": 1,
+      "minimum_interval": -3.552713678800501e-15,
+      "service_drift_margin": 30.468767906691056,
+      "mean_headway_error": 5.329070518200751e-15
+    },
+    {
+      "case": "uniform-e080-g00",
+      "station": 1,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 39.18819933927519,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "uniform-e080-g00",
+      "station": 2,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 31.086492329237274,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "uniform-e080-g00",
+      "station": 3,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 24.998836412926543,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e080-g00",
+      "station": 4,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 20.43382429929678,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "uniform-e080-g00",
+      "station": 5,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 17.019595243940024,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "uniform-e080-g00",
+      "station": 6,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 14.449677008333131,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e080-g00",
+      "station": 7,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 12.52559118780003,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "uniform-e080-g00",
+      "station": 8,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 11.085995758796868,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e080-g00",
+      "station": 9,
+      "strong_components": 1,
+      "minimum_interval": 4.8,
+      "service_drift_margin": 9.994545360428594,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e097-g20",
+      "station": 1,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 36.890691698871166,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "uniform-e097-g20",
+      "station": 2,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 27.061921516076048,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e097-g20",
+      "station": 3,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 19.681051207850153,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e097-g20",
+      "station": 4,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 14.15513913526911,
+      "mean_headway_error": 4.440892098500626e-15
+    },
+    {
+      "case": "uniform-e097-g20",
+      "station": 5,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 10.0206719704159,
+      "mean_headway_error": 6.217248937900877e-15
+    },
+    {
+      "case": "uniform-e097-g20",
+      "station": 6,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 6.90257439919867,
+      "mean_headway_error": 4.440892098500626e-15
+    },
+    {
+      "case": "uniform-e097-g20",
+      "station": 7,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 4.569379432793081,
+      "mean_headway_error": 8.881784197001252e-15
+    },
+    {
+      "case": "uniform-e097-g20",
+      "station": 8,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 2.8240858986516315,
+      "mean_headway_error": 4.440892098500626e-15
+    },
+    {
+      "case": "uniform-e097-g20",
+      "station": 9,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 1.505794633107186,
+      "mean_headway_error": 5.329070518200751e-15
+    },
+    {
+      "case": "heterogeneous-e097",
+      "station": 1,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 26.330232558139535,
+      "mean_headway_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "heterogeneous-e097",
+      "station": 2,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 5.884057232762132,
+      "mean_headway_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "heterogeneous-e097",
+      "station": 3,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 1.0310698756947794,
+      "mean_headway_error": 6.217248937900877e-15
+    },
+    {
+      "case": "heterogeneous-e097",
+      "station": 4,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 4.150618867875642,
+      "mean_headway_error": 3.552713678800501e-15
+    },
+    {
+      "case": "heterogeneous-e097",
+      "station": 5,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 6.495088473982094,
+      "mean_headway_error": 4.440892098500626e-15
+    },
+    {
+      "case": "heterogeneous-e097",
+      "station": 6,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 18.271730918450757,
+      "mean_headway_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "heterogeneous-e097",
+      "station": 7,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 18.464824066366823,
+      "mean_headway_error": 3.552713678800501e-15
+    },
+    {
+      "case": "heterogeneous-e097",
+      "station": 8,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 7.781227260002961,
+      "mean_headway_error": 2.6645352591003757e-15
+    },
+    {
+      "case": "heterogeneous-e097",
+      "station": 9,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 25.400697669600124,
+      "mean_headway_error": 3.552713678800501e-15
+    },
+    {
+      "case": "heterogeneous-e090",
+      "station": 1,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 26.88372093023256,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "heterogeneous-e090",
+      "station": 2,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 7.8957553889520575,
+      "mean_headway_error": 2.6645352591003757e-15
+    },
+    {
+      "case": "heterogeneous-e090",
+      "station": 3,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 3.3884300745703015,
+      "mean_headway_error": 2.6645352591003757e-15
+    },
+    {
+      "case": "heterogeneous-e090",
+      "station": 4,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 6.290944313453281,
+      "mean_headway_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "heterogeneous-e090",
+      "station": 5,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 8.47116791054308,
+      "mean_headway_error": 4.440892098500626e-15
+    },
+    {
+      "case": "heterogeneous-e090",
+      "station": 6,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 19.40230595021909,
+      "mean_headway_error": 4.440892098500626e-15
+    },
+    {
+      "case": "heterogeneous-e090",
+      "station": 7,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 19.586447942475917,
+      "mean_headway_error": 4.440892098500626e-15
+    },
+    {
+      "case": "heterogeneous-e090",
+      "station": 8,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 9.666842552355462,
+      "mean_headway_error": 6.217248937900877e-15
+    },
+    {
+      "case": "heterogeneous-e090",
+      "station": 9,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 26.015183402244205,
+      "mean_headway_error": 7.993605777301127e-15
+    },
+    {
+      "case": "original-reference",
+      "station": 1,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 31.3,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "original-reference",
+      "station": 2,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 24.100072898535775,
+      "mean_headway_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "original-reference",
+      "station": 3,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 22.3808185369744,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "original-reference",
+      "station": 4,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 23.489409800067076,
+      "mean_headway_error": 2.6645352591003757e-15
+    },
+    {
+      "case": "original-reference",
+      "station": 5,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 24.31694391813402,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "original-reference",
+      "station": 6,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 28.465749548733392,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "original-reference",
+      "station": 7,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 28.53081903882737,
+      "mean_headway_error": 5.329070518200751e-15
+    },
+    {
+      "case": "original-reference",
+      "station": 8,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 24.76715893122505,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "original-reference",
+      "station": 9,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 30.968976023395825,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e080-g20",
+      "station": 1,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 39.18819933927518,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e080-g20",
+      "station": 2,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 31.07476119519196,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "uniform-e080-g20",
+      "station": 3,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 24.98937577787133,
+      "mean_headway_error": 5.329070518200751e-15
+    },
+    {
+      "case": "uniform-e080-g20",
+      "station": 4,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 20.432625252965465,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "uniform-e080-g20",
+      "station": 5,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 17.014694594458142,
+      "mean_headway_error": 4.440892098500626e-15
+    },
+    {
+      "case": "uniform-e080-g20",
+      "station": 6,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 14.450684376466205,
+      "mean_headway_error": 7.993605777301127e-15
+    },
+    {
+      "case": "uniform-e080-g20",
+      "station": 7,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 12.530331489371411,
+      "mean_headway_error": 2.6645352591003757e-15
+    },
+    {
+      "case": "uniform-e080-g20",
+      "station": 8,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 11.08517505944725,
+      "mean_headway_error": 2.6645352591003757e-15
+    },
+    {
+      "case": "uniform-e080-g20",
+      "station": 9,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 10.01080679212542,
+      "mean_headway_error": 6.217248937900877e-15
+    },
+    {
+      "case": "original-demand1",
+      "station": 1,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 30.400000000000006,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "original-demand1",
+      "station": 2,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 20.799956460178144,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "original-demand1",
+      "station": 3,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 18.52507314124273,
+      "mean_headway_error": 2.6645352591003757e-15
+    },
+    {
+      "case": "original-demand1",
+      "station": 4,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 19.99454583059601,
+      "mean_headway_error": 7.105427357601002e-15
+    },
+    {
+      "case": "original-demand1",
+      "station": 5,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 21.089078149942885,
+      "mean_headway_error": 7.993605777301127e-15
+    },
+    {
+      "case": "original-demand1",
+      "station": 6,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 26.61552024435672,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "original-demand1",
+      "station": 7,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 26.708490719877922,
+      "mean_headway_error": 4.440892098500626e-15
+    },
+    {
+      "case": "original-demand1",
+      "station": 8,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 21.695018211146543,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "original-demand1",
+      "station": 9,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 29.96173143589878,
+      "mean_headway_error": 6.217248937900877e-15
+    },
+    {
+      "case": "uniform-e090-g20",
+      "station": 1,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 37.836724256684576,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "uniform-e090-g20",
+      "station": 2,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 28.710059523348413,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e090-g20",
+      "station": 3,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 21.859809180777127,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e090-g20",
+      "station": 4,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 16.73139744231313,
+      "mean_headway_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "uniform-e090-g20",
+      "station": 5,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 12.89306087951091,
+      "mean_headway_error": 3.552713678800501e-15
+    },
+    {
+      "case": "uniform-e090-g20",
+      "station": 6,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 10.016599792109615,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e090-g20",
+      "station": 7,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 7.850144098989263,
+      "mean_headway_error": 1.3322676295501878e-14
+    },
+    {
+      "case": "uniform-e090-g20",
+      "station": 8,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 6.208124794767452,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e090-g20",
+      "station": 9,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 4.995070720736043,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e090-g02",
+      "station": 1,
+      "strong_components": 1,
+      "minimum_interval": 0.0,
+      "service_drift_margin": 37.836724256684576,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e090-g02",
+      "station": 2,
+      "strong_components": 1,
+      "minimum_interval": 0.0,
+      "service_drift_margin": 28.712727315985383,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "uniform-e090-g02",
+      "station": 3,
+      "strong_components": 1,
+      "minimum_interval": 0.0,
+      "service_drift_margin": 21.874826859232257,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "uniform-e090-g02",
+      "station": 4,
+      "strong_components": 1,
+      "minimum_interval": 0.0,
+      "service_drift_margin": 16.743448481674065,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e090-g02",
+      "station": 5,
+      "strong_components": 1,
+      "minimum_interval": 0.0,
+      "service_drift_margin": 12.906490148292152,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e090-g02",
+      "station": 6,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 10.021238239416169,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e090-g02",
+      "station": 7,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 7.838800269478435,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e090-g02",
+      "station": 8,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 6.212359491928799,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "uniform-e090-g02",
+      "station": 9,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 4.997148415992973,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "original-C30",
+      "station": 1,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 27.300000000000004,
+      "mean_headway_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "original-C30",
+      "station": 2,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 20.097917686449165,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "original-C30",
+      "station": 3,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 18.386210984620792,
+      "mean_headway_error": 1.7763568394002505e-15
+    },
+    {
+      "case": "original-C30",
+      "station": 4,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 19.491294172220986,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "original-C30",
+      "station": 5,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 20.31975480781252,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "original-C30",
+      "station": 6,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 24.466554858985972,
+      "mean_headway_error": 6.217248937900877e-15
+    },
+    {
+      "case": "original-C30",
+      "station": 7,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 24.535509171594413,
+      "mean_headway_error": 7.993605777301127e-15
+    },
+    {
+      "case": "original-C30",
+      "station": 8,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 20.776579391468722,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "original-C30",
+      "station": 9,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 26.975792375889014,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e080-g02",
+      "station": 1,
+      "strong_components": 1,
+      "minimum_interval": 0.0,
+      "service_drift_margin": 39.188199339275194,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e080-g02",
+      "station": 2,
+      "strong_components": 1,
+      "minimum_interval": 0.0,
+      "service_drift_margin": 31.078158945675256,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e080-g02",
+      "station": 3,
+      "strong_components": 1,
+      "minimum_interval": 0.0,
+      "service_drift_margin": 24.98985872427818,
+      "mean_headway_error": 2.6645352591003757e-15
+    },
+    {
+      "case": "uniform-e080-g02",
+      "station": 4,
+      "strong_components": 1,
+      "minimum_interval": 0.0,
+      "service_drift_margin": 20.418250892821845,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "uniform-e080-g02",
+      "station": 5,
+      "strong_components": 1,
+      "minimum_interval": 0.0,
+      "service_drift_margin": 16.997585345134006,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e080-g02",
+      "station": 6,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 14.439253489533693,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e080-g02",
+      "station": 7,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 12.51248568480671,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "uniform-e080-g02",
+      "station": 8,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 11.072199796312153,
+      "mean_headway_error": 3.552713678800501e-15
+    },
+    {
+      "case": "uniform-e080-g02",
+      "station": 9,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 9.993899274541588,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e097-g02",
+      "station": 1,
+      "strong_components": 1,
+      "minimum_interval": 0.0,
+      "service_drift_margin": 36.89069169887116,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e097-g02",
+      "station": 2,
+      "strong_components": 1,
+      "minimum_interval": 0.0,
+      "service_drift_margin": 27.049032284146143,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "uniform-e097-g02",
+      "station": 3,
+      "strong_components": 1,
+      "minimum_interval": 0.0,
+      "service_drift_margin": 19.676217217812955,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "uniform-e097-g02",
+      "station": 4,
+      "strong_components": 1,
+      "minimum_interval": 0.0,
+      "service_drift_margin": 14.147254336517584,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e097-g02",
+      "station": 5,
+      "strong_components": 1,
+      "minimum_interval": 0.0,
+      "service_drift_margin": 10.006345155060473,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e097-g02",
+      "station": 6,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 6.905085549807062,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e097-g02",
+      "station": 7,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 4.562497313340863,
+      "mean_headway_error": 0.0
+    },
+    {
+      "case": "uniform-e097-g02",
+      "station": 8,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 2.8195990409889617,
+      "mean_headway_error": 8.881784197001252e-16
+    },
+    {
+      "case": "uniform-e097-g02",
+      "station": 9,
+      "strong_components": 1,
+      "minimum_interval": -1.7763568394002505e-15,
+      "service_drift_margin": 1.5074396615706043,
+      "mean_headway_error": 8.881784197001252e-16
+    }
+  ]
+}

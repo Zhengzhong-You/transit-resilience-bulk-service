@@ -1,0 +1,14 @@
+{
+  "mean_residual": 42.91435797988175,
+  "mean_queue": 75.89435797988175,
+  "variance_queue": 1192.922470571095,
+  "variance_residual": 1089.068749365102,
+  "mean_wait": 8.802258840502766,
+  "variance_wait": 23.772066603715736,
+  "mean_headway": 4.799999999999996,
+  "residual_times_next_headway": 147.17971822065766,
+  "upper_boundary_probability": 7.835488442971266e-15,
+  "balance_residual_l1": 9.69857468734992e-11,
+  "iterations": 861,
+  "elapsed_seconds": 3.511053833994083
+}

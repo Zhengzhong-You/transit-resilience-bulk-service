@@ -1,0 +1,14 @@
+{
+  "case": {
+    "name": "slow-exogenous-load097",
+    "group": "dwell_sensitivity",
+    "load": 0.97,
+    "dwell": "exogenous",
+    "dwell_scale": 2.0,
+    "donor_suffix": "-slow"
+  },
+  "replicate": 0,
+  "elapsed_seconds": 7.947073400020599,
+  "status": "completed",
+  "boarded_equals_alighted": true
+}

@@ -1,0 +1,13 @@
+{
+  "case": {
+    "name": "fleet25-endogenous",
+    "group": "fleet",
+    "load": 0.97,
+    "fleet": 25,
+    "dwell": "endogenous"
+  },
+  "replicate": 4,
+  "elapsed_seconds": 10.857793600298464,
+  "status": "completed",
+  "boarded_equals_alighted": true
+}

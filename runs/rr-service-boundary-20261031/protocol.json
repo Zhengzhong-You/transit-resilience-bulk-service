@@ -1,0 +1,81 @@
+{
+  "h": 4.8,
+  "gamma": 0.2,
+  "theta": 1.0,
+  "segment_time": 5.0,
+  "stations": 10,
+  "capacity": 34,
+  "queue_station": 8,
+  "burn_in_vehicles": 10000,
+  "vehicles": 80000,
+  "replications": 20,
+  "horizons": [
+    5000,
+    20000,
+    80000
+  ],
+  "load_ratios": [
+    0.8,
+    0.87,
+    0.9,
+    0.97,
+    1.0,
+    1.03,
+    1.1
+  ],
+  "seeds": [
+    2026103100,
+    2026103101,
+    2026103102,
+    2026103103,
+    2026103104,
+    2026103105,
+    2026103106,
+    2026103107,
+    2026103108,
+    2026103109,
+    2026103110,
+    2026103111,
+    2026103112,
+    2026103113,
+    2026103114,
+    2026103115,
+    2026103116,
+    2026103117,
+    2026103118,
+    2026103119
+  ],
+  "normal_positive_part_means": [
+    4.805440888151624,
+    4.852097894754664,
+    4.931093023091402,
+    5.024409802868653,
+    5.123417803599107,
+    5.224107971544423,
+    5.324537755659665,
+    5.423741481463597,
+    5.521243403368592,
+    5.616825109306074
+  ],
+  "normal_scaling_factors": [
+    0.9988677650441941,
+    0.9892628104616389,
+    0.9734150172228514,
+    0.9553360868891452,
+    0.9368745989499603,
+    0.9188171504389787,
+    0.9014867055638561,
+    0.884997932959135,
+    0.8693693882561759,
+    0.8545752994956632
+  ],
+  "elapsed_seconds": 30.58928004198242,
+  "python": "3.13.7",
+  "numpy": "2.5.4",
+  "source_sha256": {
+    "validate_service_revision.py": "8538c0588e7e7897bd93f2e245c70466278d5ef991a137b2e4c66f81300992e0",
+    "service_dynamics.py": "819b480e1d93f8f59d2fd50405ab53c4062e116ae64dd5e83fb511eebbb0fff0"
+  },
+  "scope": "Zero dwell, exogenous dispatch, one station with deterministic available capacity. Does not validate downstream endogenous capacity, dwell feedback or finite fleet feasibility.",
+  "critical_case": "Finite-horizon diagnostics at load_ratio=1 are not a proof or classification of stability."
+}

@@ -1,0 +1,14 @@
+{
+  "case": {
+    "name": "slow-endogenous-load080",
+    "group": "dwell_sensitivity",
+    "load": 0.8,
+    "dwell": "endogenous",
+    "dwell_scale": 2.0,
+    "donor_suffix": "-slow"
+  },
+  "replicate": 16,
+  "elapsed_seconds": 10.22005150001496,
+  "status": "completed",
+  "boarded_equals_alighted": true
+}

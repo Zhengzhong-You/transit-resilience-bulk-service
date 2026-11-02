@@ -1,0 +1,14 @@
+{
+  "case": {
+    "name": "slow-constant-load097",
+    "group": "dwell_sensitivity",
+    "load": 0.97,
+    "dwell": "constant",
+    "dwell_scale": 2.0,
+    "donor_suffix": "-slow"
+  },
+  "replicate": 11,
+  "elapsed_seconds": 8.709786500316113,
+  "status": "completed",
+  "boarded_equals_alighted": true
+}

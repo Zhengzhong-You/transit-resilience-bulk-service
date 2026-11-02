@@ -1,0 +1,12 @@
+{
+  "case": {
+    "name": "zero-load097",
+    "group": "dwell",
+    "load": 0.97,
+    "dwell": "zero"
+  },
+  "replicate": 4,
+  "elapsed_seconds": 11.642694700043648,
+  "status": "completed",
+  "boarded_equals_alighted": true
+}

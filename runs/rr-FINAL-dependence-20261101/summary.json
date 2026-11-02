@@ -1,0 +1,63 @@
+{
+  "physical": {
+    "corr_prequeue_remaining_load": {
+      "mean": 0.2087100270387939,
+      "lower95": 0.20563935823189194,
+      "upper95": 0.21178069584569587
+    },
+    "corr_residual_available_capacity": {
+      "mean": -0.34624484470164274,
+      "lower95": -0.3511008692453274,
+      "upper95": -0.3413888201579581
+    },
+    "cov_residual_next_headway": {
+      "mean": -27.618978100262183,
+      "lower95": -27.743890606215473,
+      "upper95": -27.494065594308893
+    },
+    "mean_calendar_queue": {
+      "mean": 30.33725,
+      "lower95": 29.989120224240114,
+      "upper95": 30.685379775759888
+    },
+    "variance_calendar_queue": {
+      "mean": 424.46192353175,
+      "lower95": 405.609233996318,
+      "upper95": 443.31461306718205
+    }
+  },
+  "fitted_joint_phase": {
+    "corr_prequeue_remaining_load": 0.19944379878830523,
+    "corr_residual_available_capacity": -0.34630338130850025,
+    "cov_residual_next_headway": -27.874149031854472
+  },
+  "protocol": {
+    "scope": "final zero-dwell route at maximum cut.97,station9;20independent seeds4200..4219",
+    "event_window": "last40000services",
+    "calendar_times": "20000independentuniformpoints in(.5Lh,.75Lh] perrep,shared acrossstations",
+    "inspection_seeds": [
+      2026904200,
+      2026904201,
+      2026904202,
+      2026904203,
+      2026904204,
+      2026904205,
+      2026904206,
+      2026904207,
+      2026904208,
+      2026904209,
+      2026904210,
+      2026904211,
+      2026904212,
+      2026904213,
+      2026904214,
+      2026904215,
+      2026904216,
+      2026904217,
+      2026904218,
+      2026904219
+    ],
+    "interpretation": "correlation diagnostics, not causal attribution or a universal accuracy guarantee; covarianceR,H uses NEXT headway",
+    "reconstruction_check": "pre-service mean matches archived full-route output; all reconstructed boarding batches valid"
+  }
+}

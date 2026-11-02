@@ -1,0 +1,12 @@
+{
+  "case": {
+    "name": "exogenous-load080",
+    "group": "dwell",
+    "load": 0.8,
+    "dwell": "exogenous"
+  },
+  "replicate": 12,
+  "elapsed_seconds": 7.816069200169295,
+  "status": "completed",
+  "boarded_equals_alighted": true
+}

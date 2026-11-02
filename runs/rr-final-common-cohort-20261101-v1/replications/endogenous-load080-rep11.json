@@ -1,0 +1,12 @@
+{
+  "case": {
+    "name": "endogenous-load080",
+    "group": "dwell",
+    "load": 0.8,
+    "dwell": "endogenous"
+  },
+  "replicate": 11,
+  "elapsed_seconds": 10.267291700001806,
+  "status": "completed",
+  "boarded_equals_alighted": true
+}

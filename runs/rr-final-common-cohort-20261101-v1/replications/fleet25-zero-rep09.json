@@ -1,0 +1,13 @@
+{
+  "case": {
+    "name": "fleet25-zero",
+    "group": "fleet",
+    "load": 0.97,
+    "fleet": 25,
+    "dwell": "zero"
+  },
+  "replicate": 9,
+  "elapsed_seconds": 11.450982700102031,
+  "status": "completed",
+  "boarded_equals_alighted": true
+}

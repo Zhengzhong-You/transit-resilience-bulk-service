@@ -1,0 +1,12 @@
+{
+  "case": {
+    "name": "boundary-1.02-initial0",
+    "group": "boundary",
+    "load": 1.02,
+    "initial": 0
+  },
+  "replicate": 3,
+  "elapsed_seconds": 10.655108400154859,
+  "status": "completed",
+  "boarded_equals_alighted": true
+}

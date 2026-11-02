@@ -1,0 +1,24 @@
+{
+  "reference": {
+    "mean_queue": 37.08802875,
+    "variance_queue": 447.1610139220312,
+    "mean_wait": 11.088052678342029,
+    "variance_wait": 53.052101377451166,
+    "mean_residual": 23.98662875
+  },
+  "relative_errors_percent": {
+    "joint_phase": {
+      "mean_queue": 2.03682533998857,
+      "variance_queue": 5.98048250160314,
+      "mean_wait": 2.175939123934339,
+      "variance_wait": 5.479601356757373
+    },
+    "displacement_only": {
+      "mean_queue": 4.8096201156867116,
+      "variance_queue": 13.10576598821001,
+      "mean_wait": 5.554119605479747,
+      "variance_wait": 13.134553149840249
+    }
+  },
+  "joint_phase_gate_passed": true
+}

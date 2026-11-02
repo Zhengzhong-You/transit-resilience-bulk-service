@@ -1,0 +1,230 @@
+[
+  {
+    "cutoff": 32,
+    "iterations": 73,
+    "balance_residual": 6.803465115373076e-13,
+    "upper_boundary_probability": 6.433861805683553e-15,
+    "mean_residual": [
+      0.09423076923191034,
+      0.13692380923911446
+    ],
+    "variance_residual": [
+      0.12509738661176292,
+      0.18961848713975804
+    ],
+    "mean_queue": [
+      0.4442307692319103,
+      0.38692380923911446
+    ],
+    "variance_queue": [
+      0.47509738661176293,
+      0.43961848713975804
+    ],
+    "mean_wait": [
+      0.7692307692340296,
+      1.0476952369564578
+    ],
+    "variance_wait": [
+      0.3353057201076401,
+      0.9264481797436307
+    ],
+    "residual_correlation": 0.08756387961759901,
+    "joint_product_total_variation": 0.01565975998792312,
+    "elapsed_seconds": 0.0044061249936930835,
+    "case": "light",
+    "rate1": 0.35,
+    "rate2": 0.25,
+    "p": 0.5,
+    "refinement_change": null
+  },
+  {
+    "cutoff": 64,
+    "iterations": 73,
+    "balance_residual": 6.876144388743112e-13,
+    "upper_boundary_probability": 1.3826482773286931e-14,
+    "mean_residual": [
+      0.09423076924009582,
+      0.1369238092510586
+    ],
+    "variance_residual": [
+      0.12509738699304945,
+      0.18961848780552099
+    ],
+    "mean_queue": [
+      0.4442307692400958,
+      0.3869238092510586
+    ],
+    "variance_queue": [
+      0.47509738699304943,
+      0.439618487805521
+    ],
+    "mean_wait": [
+      0.7692307692574167,
+      1.0476952370042345
+    ],
+    "variance_wait": [
+      0.335305723153363,
+      0.9264481902047316
+    ],
+    "residual_correlation": 0.08756388175143758,
+    "joint_product_total_variation": 0.01565975998822846,
+    "elapsed_seconds": 0.01060995802981779,
+    "case": "light",
+    "rate1": 0.35,
+    "rate2": 0.25,
+    "p": 0.5,
+    "refinement_change": 1.046110087443708e-08
+  },
+  {
+    "cutoff": 32,
+    "iterations": 2964,
+    "balance_residual": 9.858478697797305e-13,
+    "upper_boundary_probability": 0.0010304155626653395,
+    "mean_residual": [
+      1.124999639552112,
+      5.284435126556526
+    ],
+    "variance_residual": [
+      2.9531130164682033,
+      34.21924926841555
+    ],
+    "mean_queue": [
+      1.874999639552112,
+      5.834435126556526
+    ],
+    "variance_queue": [
+      3.7031130164682033,
+      34.76924926841555
+    ],
+    "mean_wait": [
+      1.999999519402816,
+      10.108063866466411
+    ],
+    "variance_wait": [
+      3.3333126700730515,
+      95.73561148823919
+    ],
+    "residual_correlation": 0.0934346244295343,
+    "joint_product_total_variation": 0.04653948729259199,
+    "elapsed_seconds": 0.16004408296430483,
+    "case": "binding",
+    "rate1": 0.75,
+    "rate2": 0.55,
+    "p": 0.5,
+    "refinement_change": null
+  },
+  {
+    "cutoff": 64,
+    "iterations": 4777,
+    "balance_residual": 9.941270914060475e-13,
+    "upper_boundary_probability": 7.430515069788589e-06,
+    "mean_residual": [
+      1.125000000007053,
+      5.46246488060713
+    ],
+    "variance_residual": [
+      2.95312500028827,
+      40.20844682172057
+    ],
+    "mean_queue": [
+      1.875000000007053,
+      6.01246488060713
+    ],
+    "variance_queue": [
+      3.70312500028827,
+      40.75844682172057
+    ],
+    "mean_wait": [
+      2.000000000009404,
+      10.431754328376599
+    ],
+    "variance_wait": [
+      3.3333333338332745,
+      114.94608355189014
+    ],
+    "residual_correlation": 0.0868184476542266,
+    "joint_product_total_variation": 0.046290558769231605,
+    "elapsed_seconds": 0.6350115000386722,
+    "case": "binding",
+    "rate1": 0.75,
+    "rate2": 0.55,
+    "p": 0.5,
+    "refinement_change": 0.16712593826634176
+  },
+  {
+    "cutoff": 128,
+    "iterations": 5409,
+    "balance_residual": 9.94800874250788e-13,
+    "upper_boundary_probability": 3.909763038265538e-10,
+    "mean_residual": [
+      1.1250000000550504,
+      5.464995746703915
+    ],
+    "variance_residual": [
+      2.9531250045089443,
+      40.37525053839879
+    ],
+    "mean_queue": [
+      1.8750000000550504,
+      6.014995746703915
+    ],
+    "variance_queue": [
+      3.7031250045089443,
+      40.925250538398785
+    ],
+    "mean_wait": [
+      2.000000000073401,
+      10.436355903098026
+    ],
+    "variance_wait": [
+      3.3333333412513673,
+      115.48913429761389
+    ],
+    "residual_correlation": 0.08664346521178605,
+    "joint_product_total_variation": 0.04628874636729974,
+    "elapsed_seconds": 2.479642332997173,
+    "case": "binding",
+    "rate1": 0.75,
+    "rate2": 0.55,
+    "p": 0.5,
+    "refinement_change": 0.004702180417460854
+  },
+  {
+    "cutoff": 256,
+    "iterations": 5424,
+    "balance_residual": 9.9592672523492e-13,
+    "upper_boundary_probability": 3.7845419411197373e-13,
+    "mean_residual": [
+      1.1250000004451535,
+      5.464996011052865
+    ],
+    "variance_residual": [
+      2.9531250732438163,
+      40.37528502449568
+    ],
+    "mean_queue": [
+      1.8750000004451535,
+      6.014996011052864
+    ],
+    "variance_queue": [
+      3.7031250732438163,
+      40.92528502449568
+    ],
+    "mean_wait": [
+      2.0000000005935377,
+      10.43635638373248
+    ],
+    "variance_wait": [
+      3.3333334627531785,
+      115.48924742735916
+    ],
+    "residual_correlation": 0.08664343502234813,
+    "joint_product_total_variation": 0.04628874627529528,
+    "elapsed_seconds": 10.170779209001921,
+    "case": "binding",
+    "rate1": 0.75,
+    "rate2": 0.55,
+    "p": 0.5,
+    "refinement_change": 9.795695079245912e-07
+  }
+]

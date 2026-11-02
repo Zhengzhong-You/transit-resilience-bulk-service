@@ -1,0 +1,12 @@
+{
+  "case": {
+    "name": "constant-load097",
+    "group": "dwell",
+    "load": 0.97,
+    "dwell": "constant"
+  },
+  "replicate": 1,
+  "elapsed_seconds": 8.559246900025755,
+  "status": "completed",
+  "boarded_equals_alighted": true
+}

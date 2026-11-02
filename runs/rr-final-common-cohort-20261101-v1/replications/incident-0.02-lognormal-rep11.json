@@ -1,0 +1,13 @@
+{
+  "case": {
+    "name": "incident-0.02-lognormal",
+    "group": "incidents",
+    "load": 0.97,
+    "gamma": 0.02,
+    "duration": "lognormal"
+  },
+  "replicate": 11,
+  "elapsed_seconds": 10.54009070014581,
+  "status": "completed",
+  "boarded_equals_alighted": true
+}

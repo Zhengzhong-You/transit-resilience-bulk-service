@@ -1,0 +1,12 @@
+{
+  "case": {
+    "name": "origin-dependent-od",
+    "group": "destinations",
+    "load": 0.97,
+    "od": true
+  },
+  "replicate": 18,
+  "elapsed_seconds": 10.748727599624544,
+  "status": "completed",
+  "boarded_equals_alighted": true
+}

@@ -1,0 +1,12 @@
+{
+  "case": {
+    "name": "passing-allowed",
+    "group": "passing",
+    "load": 0.97,
+    "passing": true
+  },
+  "replicate": 6,
+  "elapsed_seconds": 10.751021199859679,
+  "status": "completed",
+  "boarded_equals_alighted": true
+}

@@ -1,0 +1,34 @@
+{
+  "motivation": "displacement-only phase with edge capacity emissions missed the 10 percent variance gate",
+  "state": "(quantized departure displacement, observed available capacity)",
+  "calibration": "runs\\rr-route-phase-20261101-v1\\calibration_inputs.npz",
+  "queue_fitting": false,
+  "settings": [
+    [
+      "central",
+      1.2,
+      0.0005,
+      1024
+    ],
+    [
+      "queue_refinement",
+      1.2,
+      0.0005,
+      2048
+    ],
+    [
+      "grid_refinement",
+      0.8,
+      0.0005,
+      1024
+    ],
+    [
+      "range_refinement",
+      1.2,
+      5e-05,
+      1024
+    ]
+  ],
+  "evaluation_status": "development refinement; final independent evaluation required before an accuracy claim",
+  "existing_evaluations": "2026103600..3619 are development after inspecting first closure; final seeds must be new"
+}

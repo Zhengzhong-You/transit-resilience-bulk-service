@@ -1,0 +1,207 @@
+{
+  "cases": [
+    {
+      "capacity": 1,
+      "load": 0.5,
+      "availability": 1.0,
+      "sigma": 0.0
+    },
+    {
+      "capacity": 1,
+      "load": 0.5,
+      "availability": 0.7,
+      "sigma": 5.656854249492381
+    },
+    {
+      "capacity": 1,
+      "load": 0.9,
+      "availability": 1.0,
+      "sigma": 0.0
+    },
+    {
+      "capacity": 1,
+      "load": 0.9,
+      "availability": 0.7,
+      "sigma": 5.656854249492381
+    },
+    {
+      "capacity": 1,
+      "load": 0.97,
+      "availability": 1.0,
+      "sigma": 0.0
+    },
+    {
+      "capacity": 1,
+      "load": 0.97,
+      "availability": 0.7,
+      "sigma": 5.656854249492381
+    },
+    {
+      "capacity": 1,
+      "load": 0.99,
+      "availability": 1.0,
+      "sigma": 0.0
+    },
+    {
+      "capacity": 1,
+      "load": 0.99,
+      "availability": 0.7,
+      "sigma": 5.656854249492381
+    },
+    {
+      "capacity": 8,
+      "load": 0.5,
+      "availability": 1.0,
+      "sigma": 0.0
+    },
+    {
+      "capacity": 8,
+      "load": 0.5,
+      "availability": 0.7,
+      "sigma": 5.656854249492381
+    },
+    {
+      "capacity": 8,
+      "load": 0.9,
+      "availability": 1.0,
+      "sigma": 0.0
+    },
+    {
+      "capacity": 8,
+      "load": 0.9,
+      "availability": 0.7,
+      "sigma": 5.656854249492381
+    },
+    {
+      "capacity": 8,
+      "load": 0.97,
+      "availability": 1.0,
+      "sigma": 0.0
+    },
+    {
+      "capacity": 8,
+      "load": 0.97,
+      "availability": 0.7,
+      "sigma": 5.656854249492381
+    },
+    {
+      "capacity": 8,
+      "load": 0.99,
+      "availability": 1.0,
+      "sigma": 0.0
+    },
+    {
+      "capacity": 8,
+      "load": 0.99,
+      "availability": 0.7,
+      "sigma": 5.656854249492381
+    },
+    {
+      "capacity": 34,
+      "load": 0.5,
+      "availability": 1.0,
+      "sigma": 0.0
+    },
+    {
+      "capacity": 34,
+      "load": 0.5,
+      "availability": 0.7,
+      "sigma": 5.656854249492381
+    },
+    {
+      "capacity": 34,
+      "load": 0.9,
+      "availability": 1.0,
+      "sigma": 0.0
+    },
+    {
+      "capacity": 34,
+      "load": 0.9,
+      "availability": 0.7,
+      "sigma": 5.656854249492381
+    },
+    {
+      "capacity": 34,
+      "load": 0.97,
+      "availability": 1.0,
+      "sigma": 0.0
+    },
+    {
+      "capacity": 34,
+      "load": 0.97,
+      "availability": 0.7,
+      "sigma": 5.656854249492381
+    },
+    {
+      "capacity": 34,
+      "load": 0.99,
+      "availability": 1.0,
+      "sigma": 0.0
+    },
+    {
+      "capacity": 34,
+      "load": 0.99,
+      "availability": 0.7,
+      "sigma": 5.656854249492381
+    },
+    {
+      "capacity": 50,
+      "load": 0.5,
+      "availability": 1.0,
+      "sigma": 0.0
+    },
+    {
+      "capacity": 50,
+      "load": 0.5,
+      "availability": 0.7,
+      "sigma": 5.656854249492381
+    },
+    {
+      "capacity": 50,
+      "load": 0.9,
+      "availability": 1.0,
+      "sigma": 0.0
+    },
+    {
+      "capacity": 50,
+      "load": 0.9,
+      "availability": 0.7,
+      "sigma": 5.656854249492381
+    },
+    {
+      "capacity": 50,
+      "load": 0.97,
+      "availability": 1.0,
+      "sigma": 0.0
+    },
+    {
+      "capacity": 50,
+      "load": 0.97,
+      "availability": 0.7,
+      "sigma": 5.656854249492381
+    },
+    {
+      "capacity": 50,
+      "load": 0.99,
+      "availability": 1.0,
+      "sigma": 0.0
+    },
+    {
+      "capacity": 50,
+      "load": 0.99,
+      "availability": 0.7,
+      "sigma": 5.656854249492381
+    }
+  ],
+  "timing_repetitions": 3,
+  "numerical_tolerance": 1e-08,
+  "parallel_cases": 16,
+  "time_limit_per_root_repetition": 30.0,
+  "timeout_boundary": "includes child interpreter startup; successful numerical timings exclude startup",
+  "root_method": "checked-in Powell/interpolation least-squares solver; close multi-zero clusters now rejected",
+  "root_free_method": "Oblakova et al.2019 Eq20 mean and differentiated logarithmic-factorization variance",
+  "same_model": "iid positive-normal (or deterministic) headways; independent binomial available capacity; A(z)=E[z^(Y+C-S)]",
+  "comparison_boundary": "characteristic and its derivatives already constructed; root search or contour quadrature plus moment extraction timed",
+  "interpretation": "numerical refinement is not an exact certificate; iid model only",
+  "source": "https://link.springer.com/article/10.1007/s11134-019-09614-1"
+}

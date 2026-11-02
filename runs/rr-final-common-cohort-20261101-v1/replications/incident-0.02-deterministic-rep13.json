@@ -1,0 +1,13 @@
+{
+  "case": {
+    "name": "incident-0.02-deterministic",
+    "group": "incidents",
+    "load": 0.97,
+    "gamma": 0.02,
+    "duration": "deterministic"
+  },
+  "replicate": 13,
+  "elapsed_seconds": 10.72342270007357,
+  "status": "completed",
+  "boarded_equals_alighted": true
+}

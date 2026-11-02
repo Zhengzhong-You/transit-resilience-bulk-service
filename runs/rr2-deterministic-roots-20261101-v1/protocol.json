@@ -1,0 +1,21 @@
+{
+  "capacity": [
+    1,
+    8,
+    34,
+    50
+  ],
+  "load": [
+    0.5,
+    0.9,
+    0.97,
+    0.99
+  ],
+  "headway": 4.8,
+  "availability": 1,
+  "repetitions": 3,
+  "model": "deterministic headways, full capacity",
+  "timing": "serial on same CPU; pgf already constructed; roots and moments versus contour and moments; excludes interpreter startup",
+  "python": "3.13.7",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O"
+}

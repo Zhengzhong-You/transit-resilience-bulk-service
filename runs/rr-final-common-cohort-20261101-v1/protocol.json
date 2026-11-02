@@ -1,0 +1,353 @@
+{
+  "status": "frozen before fresh-seed evaluation",
+  "cases": [
+    {
+      "name": "boundary-0.80-initial0",
+      "group": "boundary",
+      "load": 0.8,
+      "initial": 0
+    },
+    {
+      "name": "boundary-0.80-initial1000",
+      "group": "boundary",
+      "load": 0.8,
+      "initial": 1000
+    },
+    {
+      "name": "boundary-0.90-initial0",
+      "group": "boundary",
+      "load": 0.9,
+      "initial": 0
+    },
+    {
+      "name": "boundary-0.90-initial1000",
+      "group": "boundary",
+      "load": 0.9,
+      "initial": 1000
+    },
+    {
+      "name": "boundary-0.97-initial0",
+      "group": "boundary",
+      "load": 0.97,
+      "initial": 0
+    },
+    {
+      "name": "boundary-0.97-initial1000",
+      "group": "boundary",
+      "load": 0.97,
+      "initial": 1000
+    },
+    {
+      "name": "boundary-1.00-initial0",
+      "group": "boundary",
+      "load": 1.0,
+      "initial": 0
+    },
+    {
+      "name": "boundary-1.00-initial1000",
+      "group": "boundary",
+      "load": 1.0,
+      "initial": 1000
+    },
+    {
+      "name": "boundary-1.01-initial0",
+      "group": "boundary",
+      "load": 1.01,
+      "initial": 0
+    },
+    {
+      "name": "boundary-1.01-initial1000",
+      "group": "boundary",
+      "load": 1.01,
+      "initial": 1000
+    },
+    {
+      "name": "boundary-1.02-initial0",
+      "group": "boundary",
+      "load": 1.02,
+      "initial": 0
+    },
+    {
+      "name": "boundary-1.02-initial1000",
+      "group": "boundary",
+      "load": 1.02,
+      "initial": 1000
+    },
+    {
+      "name": "zero-load080",
+      "group": "dwell",
+      "load": 0.8,
+      "dwell": "zero"
+    },
+    {
+      "name": "constant-load080",
+      "group": "dwell",
+      "load": 0.8,
+      "dwell": "constant"
+    },
+    {
+      "name": "exogenous-load080",
+      "group": "dwell",
+      "load": 0.8,
+      "dwell": "exogenous"
+    },
+    {
+      "name": "endogenous-load080",
+      "group": "dwell",
+      "load": 0.8,
+      "dwell": "endogenous"
+    },
+    {
+      "name": "zero-load097",
+      "group": "dwell",
+      "load": 0.97,
+      "dwell": "zero"
+    },
+    {
+      "name": "constant-load097",
+      "group": "dwell",
+      "load": 0.97,
+      "dwell": "constant"
+    },
+    {
+      "name": "exogenous-load097",
+      "group": "dwell",
+      "load": 0.97,
+      "dwell": "exogenous"
+    },
+    {
+      "name": "endogenous-load097",
+      "group": "dwell",
+      "load": 0.97,
+      "dwell": "endogenous"
+    },
+    {
+      "name": "fleet25-zero",
+      "group": "fleet",
+      "load": 0.97,
+      "fleet": 25,
+      "dwell": "zero"
+    },
+    {
+      "name": "fleet25-endogenous",
+      "group": "fleet",
+      "load": 0.97,
+      "fleet": 25,
+      "dwell": "endogenous"
+    },
+    {
+      "name": "fleet30-zero",
+      "group": "fleet",
+      "load": 0.97,
+      "fleet": 30,
+      "dwell": "zero"
+    },
+    {
+      "name": "fleet30-endogenous",
+      "group": "fleet",
+      "load": 0.97,
+      "fleet": 30,
+      "dwell": "endogenous"
+    },
+    {
+      "name": "fleet40-zero",
+      "group": "fleet",
+      "load": 0.97,
+      "fleet": 40,
+      "dwell": "zero"
+    },
+    {
+      "name": "fleet40-endogenous",
+      "group": "fleet",
+      "load": 0.97,
+      "fleet": 40,
+      "dwell": "endogenous"
+    },
+    {
+      "name": "incident-0.00-exponential",
+      "group": "incidents",
+      "load": 0.97,
+      "gamma": 0.0,
+      "duration": "exponential"
+    },
+    {
+      "name": "incident-0.02-deterministic",
+      "group": "incidents",
+      "load": 0.97,
+      "gamma": 0.02,
+      "duration": "deterministic"
+    },
+    {
+      "name": "incident-0.02-exponential",
+      "group": "incidents",
+      "load": 0.97,
+      "gamma": 0.02,
+      "duration": "exponential"
+    },
+    {
+      "name": "incident-0.02-lognormal",
+      "group": "incidents",
+      "load": 0.97,
+      "gamma": 0.02,
+      "duration": "lognormal"
+    },
+    {
+      "name": "incident-0.20-deterministic",
+      "group": "incidents",
+      "load": 0.97,
+      "gamma": 0.2,
+      "duration": "deterministic"
+    },
+    {
+      "name": "incident-0.20-exponential",
+      "group": "incidents",
+      "load": 0.97,
+      "gamma": 0.2,
+      "duration": "exponential"
+    },
+    {
+      "name": "incident-0.20-lognormal",
+      "group": "incidents",
+      "load": 0.97,
+      "gamma": 0.2,
+      "duration": "lognormal"
+    },
+    {
+      "name": "origin-dependent-od",
+      "group": "destinations",
+      "load": 0.97,
+      "od": true
+    },
+    {
+      "name": "passing-allowed",
+      "group": "passing",
+      "load": 0.97,
+      "passing": true
+    },
+    {
+      "name": "slow-constant-load080",
+      "group": "dwell_sensitivity",
+      "load": 0.8,
+      "dwell": "constant",
+      "dwell_scale": 2.0,
+      "donor_suffix": "-slow"
+    },
+    {
+      "name": "slow-exogenous-load080",
+      "group": "dwell_sensitivity",
+      "load": 0.8,
+      "dwell": "exogenous",
+      "dwell_scale": 2.0,
+      "donor_suffix": "-slow"
+    },
+    {
+      "name": "slow-endogenous-load080",
+      "group": "dwell_sensitivity",
+      "load": 0.8,
+      "dwell": "endogenous",
+      "dwell_scale": 2.0,
+      "donor_suffix": "-slow"
+    },
+    {
+      "name": "slow-constant-load097",
+      "group": "dwell_sensitivity",
+      "load": 0.97,
+      "dwell": "constant",
+      "dwell_scale": 2.0,
+      "donor_suffix": "-slow"
+    },
+    {
+      "name": "slow-exogenous-load097",
+      "group": "dwell_sensitivity",
+      "load": 0.97,
+      "dwell": "exogenous",
+      "dwell_scale": 2.0,
+      "donor_suffix": "-slow"
+    },
+    {
+      "name": "slow-endogenous-load097",
+      "group": "dwell_sensitivity",
+      "load": 0.97,
+      "dwell": "endogenous",
+      "dwell_scale": 2.0,
+      "donor_suffix": "-slow"
+    }
+  ],
+  "vehicles": 80000,
+  "replications": 20,
+  "workers": 24,
+  "evaluation_incident_seeds": [
+    2026104200,
+    2026104201,
+    2026104202,
+    2026104203,
+    2026104204,
+    2026104205,
+    2026104206,
+    2026104207,
+    2026104208,
+    2026104209,
+    2026104210,
+    2026104211,
+    2026104212,
+    2026104213,
+    2026104214,
+    2026104215,
+    2026104216,
+    2026104217,
+    2026104218,
+    2026104219
+  ],
+  "passenger_seed_offset": 300000,
+  "scheduled_headway": 4.8,
+  "capacity": 50,
+  "stations": 10,
+  "normal_segment_minutes": 5.0,
+  "queue_measurement": "last half of each stated vehicle horizon",
+  "waiting_cohort": "the SAME local calendar arrivals in (.5*L*4.8,.75*L*4.8] under every variant and initial state, followed until final service, explicit censoring",
+  "horizon_scope": "L counts retained scheduled runs; all missed departures remain in the timetable and may depart late",
+  "headway_definition": "service-gate interval; departure-headway variance also recorded",
+  "dwell_laws_minutes": {
+    "fast": [
+      0.1,
+      0.02,
+      0.01
+    ],
+    "slow": [
+      0.1,
+      0.04,
+      0.02
+    ]
+  },
+  "donor_calibration": {
+    "vehicles": 40000,
+    "measurement": "last20000",
+    "incident_seeds": [
+      2026103500,
+      2026103501,
+      2026103900,
+      2026103901
+    ],
+    "passenger_seed_offset": 300000
+  },
+  "fleet": "cyclic vehicle assignment, explicit ten-segment FIFO empty return, no terminal turnaround; exogenous incident clock during normal travel only",
+  "incident_laws": "deterministic/exponential mean1 minute; lognormal mean1 variance1, sigma=sqrt(log2)",
+  "destinations": "origin-dependent 2x2 exchanges preserve origin/destination totals and all nominal cut loads",
+  "passing": "free zero-dwell trajectories, vehicle identity retained, station service processed chronologically",
+  "phase_validation": "joint displacement/capacity model and settings frozen using independent seed3800 calibration and development seeds3600..3619, before accessing these final seeds",
+  "development_exclusion": "3450 pilots,3600..3619 former route/phase studies are retained but never pooled into this final cohort",
+  "python": "3.13.12",
+  "numpy": "2.5.4",
+  "source_sha256": {
+    "route_validation.py": "1ed0cf4367b233ed7ca31d170d6566b695b48d9efd671769076e9c207f7f63a6",
+    "run_revision_final_suite.py": "c570948b3fc567ede411fd6ae51c14e15efc1cbbe9bccc0dcf298ec7e658fff8",
+    "run_route_suite.py": "58ee9346bc00f2d3bc107b3b759a35973641e85dcbcb9d196250d5806e4f68a8",
+    "service_dynamics.py": "819b480e1d93f8f59d2fd50405ab53c4062e116ae64dd5e83fb511eebbb0fff0",
+    "validate_service_revision.py": "8538c0588e7e7897bd93f2e245c70466278d5ef991a137b2e4c66f81300992e0"
+  },
+  "frozen_phase_kernel_sha256": {
+    "runs\\rr-route-phase-refinement-20261101-v1\\central_joint.npz": "05f50a2c975e06e67f9842a44c492fc733122ec05e6e46a9b24fc2ec2ad2a424",
+    "runs\\rr-route-phase-refinement-20261101-v1\\phase_transition.npz": "3334cb4381d552a549045501040f4826e85f862b22f31b30ef762fa0a309f51d",
+    "runs\\rr-route-phase-20261101-v1\\central_kernel.npz": "6d00ae94245919a7fe013cabb0f1bc6a7c048b773f076dc2778caa9b2ac486ee"
+  }
+}

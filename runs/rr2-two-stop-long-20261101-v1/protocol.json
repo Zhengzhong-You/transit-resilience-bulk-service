@@ -1,0 +1,24 @@
+{
+  "previous_run": "D:\\ricky\\transit-resilience-rr\\runs\\rr-final-common-cohort-20261101-v1",
+  "dwell_reconstructions": 0,
+  "fresh_joint_runs": 40,
+  "dwell_seeds": "original 2026104200..4219; identical 80000-run arrays and donor marginals",
+  "reconstruction_not_new_independent_evidence": true,
+  "toy_vehicles": 480000,
+  "toy_seed_base": 2026112100,
+  "toy_observation": [
+    240000.0,
+    480000
+  ],
+  "toy_waiting_cohort": [
+    240000.0,
+    360000.0
+  ],
+  "source_sha256": {
+    "route_validation.py": "f2a8519c48d30b0444616db7bd46c802335149cd748fc28e9da4bcffb559aae6",
+    "run_revision_dwell_joint.py": "69e519f8158fca397a7396f37b67c87919511344b59c55ffdc4d792908d010fb",
+    "run_route_suite.py": "58ee9346bc00f2d3bc107b3b759a35973641e85dcbcb9d196250d5806e4f68a8",
+    "validate_route_phase.py": "670cd538cb8f880767537228ad56f92a020ea704a6117f86c1b54396240d9e6f",
+    "validate_service_revision.py": "8538c0588e7e7897bd93f2e245c70466278d5ef991a137b2e4c66f81300992e0"
+  }
+}

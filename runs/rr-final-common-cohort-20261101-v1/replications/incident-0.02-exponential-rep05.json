@@ -1,0 +1,13 @@
+{
+  "case": {
+    "name": "incident-0.02-exponential",
+    "group": "incidents",
+    "load": 0.97,
+    "gamma": 0.02,
+    "duration": "exponential"
+  },
+  "replicate": 5,
+  "elapsed_seconds": 10.854898300021887,
+  "status": "completed",
+  "boarded_equals_alighted": true
+}
